@@ -1,0 +1,65 @@
+/*--header starts here*/
+
+header{
+    margin-left:100px;
+  
+}
+
+
+.row h1{
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+
+}
+
+nav{
+    margin-top: 50px;
+}
+
+nav a{
+
+display: inline-block;
+margin-left: 10px;
+text-decoration: none;
+color:#111111;
+font-family: 'Montserrat',sans-serif;
+font-size:1.1em;
+font-weight: 700;
+}
+
+nav a:hover{
+transform: scale(1.1);
+transition: 3s;
+}
+.fa-magnifying-glass{
+     font-size: 1.2em;
+}
+.fa-cart-shopping{
+    font-size: 1.2em;
+}
+.shopping-cart{
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 20px;
+    color:#a52a2a;
+
+}
+.magnifying-glass{
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 20px;
+    color:#00f;
+}
+.hamburger-menu{
+    display: none;
+    color:#a52a2a;
+    font-size: 1.2em;
+}
+.cross-icon{
+    display: none;
+    color:#f00;
+}
+
+/*--header ends here*/

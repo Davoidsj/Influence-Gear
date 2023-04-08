@@ -1,0 +1,442 @@
+/*----------------------------------------------------
+Responsive Design for different electronic devices.
+-----------------------------------------------------*/
+
+/*-----All Devices-----*/
+body{
+    scroll-behavior: smooth;
+  
+}
+
+/*---------Extra Large Device screen range less than or equal to 1200px---*/
+
+[class*="col-"]{
+  float:left;
+  padding:15px;
+}
+.row::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+
+
+
+
+
+
+/* -----------Extra small devices (phones, 600px and down)---------- */
+@media only screen and (max-width: 576px) {
+  [class*="col-"]{
+    width: 100%;
+  
+  }
+header{
+max-width:220px;
+margin: auto;
+}
+header h1{
+  white-space: nowrap;
+
+}
+nav{
+  background: #f4f4f4;
+  max-width: 220px;
+margin: 20px auto auto auto;
+transform: scale(1.2);
+transition: transform 5s 2s ease-in-out;
+}
+.hamburger-menu{
+  display: block;
+position: relative;
+top:140px;
+left:100px;
+
+
+}
+.magnifying-glass{
+  display: none;
+}
+.cross-icon{
+  display: block;
+  position: relative;
+  top:-30px;
+  left:200px;
+}
+.shopping-cart{
+position: relative;
+top:-189px;
+left:140px;
+}
+.menu-bar{
+  visibility: hidden;
+}
+
+
+article section:nth-of-type(1){
+  position: relative;
+  top:770px;
+}
+
+
+
+article section:nth-of-type(2){
+  position: relative;
+  top:-430px;
+right:-60px;
+  
+
+}
+
+article section h2{
+  font-size: 2.2em;
+ 
+}
+
+article section p{
+  padding: 20px;
+  margin-left:-15px;
+  color:#110101;
+}
+article section img{
+  width:200px;
+  height:200px;
+  object-fit: cover;
+}
+article section button{
+  padding: 20px 30px;
+}
+.logos-section{
+  margin-top: 600px;
+  margin-left: 30px;
+}
+.logos-section img{
+
+  width:80px;
+  height: 80px;
+}
+
+
+.horizontal-section{
+display: none;
+}
+
+.horizontal-section1{
+display: none;
+}
+.popular-collection h3{
+  margin-left: -100px;
+  white-space: nowrap;
+}
+.card .card-header img{
+width: 290px;
+position: relative;
+left:5px;
+}
+
+.card{
+  margin-left: -80px;
+  width:300px;
+}
+.see-more-section{
+  margin-left:-400px;
+  margin-top:-100px;
+}
+.aside-section{
+ margin-left: 80px; 
+}
+.aside-section img{
+  width:300px;
+  height:200px;
+  position: relative;
+  top:700px;
+
+}
+
+.aside-section h1{
+  font-size: 1.3em;
+}
+.aside-section p{
+  font-size: 1em;
+}
+
+.footer-section{
+  margin-top: 600px;
+width:630px;
+margin-left: -10px;
+padding-left: 5px;
+
+}
+.footer-section p{
+  font-size: 1em;
+}
+}
+
+
+
+
+/*---------Small devices (portrait tablets and large phones, 600px and up)----- */
+@media only screen and (min-width:577px) and (max-width:767px){
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%};
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+header{
+max-width: 300px;
+margin:auto;
+}
+header h1{
+  white-space: nowrap;
+}
+nav{
+  background: #f4f4f4;
+  max-width: 220px;
+margin: auto;
+}
+.hamburger-menu{
+  display: block;
+position: relative;
+top:95px;
+left:-100px;
+
+}
+
+.magnifying-glass{
+  display: none;
+}
+.cross-icon{
+  display: block;
+  position: relative;
+top:-36px;
+ left:190px;
+}
+.shopping-cart{
+  position: relative;
+  top:-125px;
+  left:100px;
+}
+
+.menu-bar{
+visibility: hidden;
+}
+
+article section h2{
+  font-size: 3.6em;
+ 
+}
+
+article section p{
+  padding: 20px;
+  margin-left:-20px;
+  color:#110101;
+}
+article section:nth-of-type(1){
+  position: relative;
+  top:640px;
+}
+
+article section button{
+  padding: 25px 30px;
+}
+
+article section:nth-of-type(2){
+  position: relative;
+  top:-360px;
+ left:-10px;
+  
+}
+.logos-section{
+  margin-top: 500px;
+  margin-left: 40px;
+}
+.logos-section img{
+
+  width:80px;
+  height: 80px;
+}
+.horizontal-section{
+  display: none;
+  }
+.horizontal-section1{
+  display: none;
+  }
+
+  .card .card-header img{
+    width: 310px;
+    position: relative;
+    left:5px;
+    }
+    
+    .card{
+      margin-left: -20px;
+      width:320px;
+    }
+
+    .popular-collection h3{
+      margin-left: -50px;
+   
+    }
+    .see-more-section{
+      margin-left:-390px;
+      margin-top:-110px;
+    }
+
+    .aside-section img{
+  width:300px;
+  height:200px;
+  position: relative;
+  top:700px;
+
+}
+.aside-section p{
+  font-size: 1em;
+}
+.aside-section h1{
+  font-size: 1.2em;
+}
+.footer-section{
+  margin-top: 590px;
+width:680px;
+margin-left: -10px;
+padding-left: 10px;
+
+}
+.footer-section p{
+  font-size: 1.2em;
+}
+
+}
+
+
+/*------------------ Medium devices (landscape tablets, 768px and up)------------ */
+@media only screen and (min-width:768px) and (max-width:992px){
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 75%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+  nav{
+    background: #f4f4f4;
+    max-width: 440px;
+  margin: auto;
+  }
+  .magnifying-glass,.shopping-cart{
+    position: relative;
+    display: inline-block;
+   margin-right: 15px;
+  }
+
+
+  article section p{
+    padding: 25px;
+    line-height: 1.6em;
+    margin-left: -16px;
+    font-weight: 700;
+    color:#110404;
+
+  }
+ article section img{
+position: relative;
+top:30px;
+right: -100px;
+ }
+
+ 
+article section button{
+  padding: 30px 35px;
+}
+
+.horizontal-section{
+  display: none;
+}
+.horizontal-section1{
+  display: none;
+}
+
+.collection-section .row{
+  margin-left: -80px;
+}
+.card .card-header img{
+  width: 270px;
+  position: relative;
+  right:-5px;
+  }
+  
+  .card{
+    width:280px;
+    position: relative;
+ left:-20px;
+  }
+ 
+  .popular-collection h3{
+   
+ margin-left:-100px
+  }
+
+  .see-more-section{
+   position: relative;
+   top:-60px;
+left: 160px;
+  }
+
+  .aside-section p{
+    font-size: 1.3em;
+    
+  }
+  .aside-section h1{
+    font-size: 1.5em;
+  }
+  .aside-section{
+    margin-right: 0;
+  }
+
+  .footer-section{
+
+  margin-left: -10px;
+
+  }
+}
+
+
+
+/*---------------- Large devices (laptops/desktops, 992px and up)---------- */
+@media only screen and (min-width:993px) {
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 75%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+
+  .see-more-section{
+    top:-80px;
+  }
+.footer-section{
+  width:1450px;
+
+}
+ 
+}
